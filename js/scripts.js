@@ -7,12 +7,10 @@ $(document).ready(function() {
     for (var i = 0; i <= userInput; i++){
       userArray[i] = i;
     }
-
-    userArray.forEach(function(number){
-      if (number == 0) {
-        number = "beep";
+    if (i = 0) {
+        i = "beep";
       }
-     });
+    
 
 
     console.log(userInput);
