@@ -1,3 +1,8 @@
+body{
+  background-color: teal;
+  color: #ccfff4;
+}
 .btn{
   border: 2px solid purple;
+  color: teal;
 }
