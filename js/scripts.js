@@ -18,15 +18,22 @@ $(document).ready(function() {
     if (userNumber < 0) {
       alert("Please enter a positive number!");
     }
-  // stringArray = $(".sentance").text().split("");
-    for(var o = 0; o < userNumber.length; o += 1){
-      if (userArray[o] === 0){
-        userArray[o] = "Beep!";
+    //for (var i = 0; o < userNumber.toString().length; i++)
+    //if (userArray[o].toString()[i] === 1||0)
+var o = 0;
+      for(var number = 0; number < userArray.length; number += 1){
+        for (var digit = 0; digit < userArray.toString().length; digit += 1){
+          if (userArray[number].toString()[digit] === "0"){
+            userArray[number] = "Beep!";
+          }
+          if (userArray[number].toString()[digit] === "1"){
+            userArray[number] = "Boop!";
+          }
+          if(userArray[number] % 3 === 0){
+             userArray[number] = "I'm Sorry, " + userName + ". I'm afraid I can't do that."
+          }
+        }
       }
-      else if(userArray[o] % 2 === 0){
-         userArray[o] = "Boop!"
-      }
-    }
     newArray = userArray.join(", ")
     var result = "Your result: " + newArray;
 
