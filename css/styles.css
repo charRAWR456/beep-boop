@@ -2,6 +2,9 @@ body{
   background-color: teal;
   color: #ccfff4;
 }
+label{
+  font-size: 15pt;
+}
 .btn{
   border: 2px solid purple;
   color: teal;
