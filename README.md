@@ -21,13 +21,13 @@ The numbers will be replaced in order by the below exceptions that are written f
   * Example Input: 0
   * Example Output: "Beep!"
 
-  * Program replaces all numbers containing 1 with "Boop!"
-    * Example Input: 1
-    * Example Output: "Boop!"
+* Program replaces all numbers containing 1 with "Boop!"
+  * Example Input: 1
+  * Example Output: "Boop!"
 
-  * Program replaces all numbers divisible by 3 with "I'm sorry, userName. I'm afraid I can't do that."
-    * Example Input: 9
-    * Example Output: "I'm sorry, Jamie. I'm afraid I can't do that."
+* Program replaces all numbers divisible by 3 with "I'm sorry, userName. I'm afraid I can't do that."
+  * Example Input: 9
+  * Example Output: "I'm sorry, Jamie. I'm afraid I can't do that."
 
 ## Technologies Used
 * HTML
